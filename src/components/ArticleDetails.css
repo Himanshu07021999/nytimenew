@@ -1,0 +1,25 @@
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .article-content h1 {
+    margin-bottom: 16px;
+  }
+  
+  .article-content p {
+    margin-bottom: 8px;
+  }
+  
+  .article-content a {
+    margin-top: 16px;
+    color: #1890ff;
+  }
+  
