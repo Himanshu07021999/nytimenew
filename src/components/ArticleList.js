@@ -32,7 +32,7 @@ const ArticlesList = () => {
       <Select defaultValue={1} onChange={handlePeriodChange} style={{ marginBottom: '20px' }}>
         <Option value={1}>1 Day</Option>
         <Option value={7}>7 Days</Option>
-       
+        <Option value={30}>30 Days</Option>
       </Select>
       {loading ? (
         <Spin size="large" />
